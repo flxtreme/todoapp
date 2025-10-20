@@ -4,19 +4,20 @@ A modern todo application built with Next.js and deployed on GitHub Pages. This 
 
 ## 🚀 Live Demo
 
-Check out the live application below:
+**[🔗 View Live Application](https://flxtreme.github.io/todoapp/)**
 
 <div align="center">
-  <iframe 
-    src="https://flxtreme.github.io/todoapp/" 
-    width="100%" 
-    height="600" 
-    frameborder="0"
-    title="Todo App Demo">
-  </iframe>
+  <a href="https://flxtreme.github.io/todoapp/" target="_blank">
+    <img src="https://img.shields.io/badge/Demo-Live-success?style=for-the-badge&logo=github" alt="Live Demo" />
+  </a>
 </div>
 
-**[Open in New Tab →](https://flxtreme.github.io/todoapp/)**
+> 💡 **Note:** Click the link above to try out the application!
+
+<!-- 
+To add a screenshot, replace this comment with:
+![Todo App Screenshot](path/to/screenshot.png)
+-->
 
 ## ✨ Features
 
@@ -96,6 +97,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - GitHub: [@flxtreme](https://github.com/flxtreme)
 - Gmail: [flxrzjr@gmail.com](mailto:flxrzjr@gmail.com)
+
 ---
 
 Made with ❤️ by flxtreme
