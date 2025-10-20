@@ -93,6 +93,7 @@ export default function Home() {
             💾
           </div>
           <div
+            onClick={toggleAdding}
             className={cls(
               "rounded-full size-14 flex items-center justify-center relative z-[1]",
               "transition-all duration-200 text-4xl font-medium ",

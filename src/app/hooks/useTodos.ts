@@ -21,11 +21,19 @@ export function useTodos() {
     init();
   }, []);
 
+  const focus = () => {
+    setTimeout(() => inputRef.current?.focus(), 200);
+  }
+
+  const unfocus = () => {
+    setTimeout(() => inputRef.current?.blur(), 200);
+  }
+
   const openAdd = () => {
     setAdding(true);
     setEditing(false);
     setEditingTodo(null);
-    setTimeout(() => inputRef.current?.focus(), 200);
+    focus();
   };
 
   const openEdit = (todo: Todo) => {
@@ -33,7 +41,7 @@ export function useTodos() {
     setAdding(false);
     setEditingTodo(todo);
     setInputValue(todo.text);
-    setTimeout(() => inputRef.current?.focus(), 200);
+    focus();
   };
 
   const addTodo = async () => {
@@ -48,6 +56,7 @@ export function useTodos() {
     }
     setAdding(false);
     setEditing(false);
+    unfocus();
     setInputValue("");
   };
 
