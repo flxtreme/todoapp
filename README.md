@@ -1,6 +1,6 @@
 # Todo App
 
-A modern todo application built with Next.js and deployed on GitHub Pages.
+A modern todo application built with Next.js and deployed on GitHub Pages. This project showcases the integration of custom npm packages including **flxhelpers** and **todo-app-engine** to create a robust task management solution.
 
 ## 🚀 Live Demo
 
@@ -24,6 +24,23 @@ Check out the live application below:
 - 📝 Clean and intuitive interface
 - 💾 Persistent storage
 - 📱 Responsive design
+- 🔧 Built with custom npm packages
+
+## 📦 Custom Packages
+
+This project utilizes two custom npm packages:
+
+### **flxhelpers**
+A utility library providing helper functions for common JavaScript operations, data manipulation, and development workflows.
+
+- GitHub: [flxtreme/flxhelpers](https://github.com/flxtreme/flxhelpers)
+- npm: `npm install flxhelpers`
+
+### **todo-app-engine**
+The core engine powering the todo application logic, handling state management, task operations, and business logic.
+
+- GitHub: [flxtreme/todo-app-engine](https://github.com/flxtreme/todo-app-engine)
+- npm: `npm install todo-app-engine`
 
 ## 🛠️ Built With
 
@@ -78,7 +95,7 @@ This project is open source and available under the [MIT License](LICENSE).
 **flxtreme**
 
 - GitHub: [@flxtreme](https://github.com/flxtreme)
-
+- Gmail: [flxrzjr@gmail.com](mailto:flxrzjr@gmail.com)
 ---
 
 Made with ❤️ by flxtreme
