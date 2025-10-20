@@ -32,13 +32,11 @@ To add a screenshot, replace this comment with:
 This project utilizes two custom npm packages:
 
 ### **flxhelpers**
-A utility library providing helper functions for common JavaScript operations, data manipulation, and development workflows.
 
 - GitHub: [flxtreme/flxhelpers](https://github.com/flxtreme/flxhelpers)
 - npm: `npm install flxhelpers`
 
 ### **todo-app-engine**
-The core engine powering the todo application logic, handling state management, task operations, and business logic.
 
 - GitHub: [flxtreme/todo-app-engine](https://github.com/flxtreme/todo-app-engine)
 - npm: `npm install todo-app-engine`
