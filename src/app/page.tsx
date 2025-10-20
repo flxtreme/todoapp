@@ -40,7 +40,7 @@ export default function Home() {
         <div className="w-full max-w-md mx-auto divide-y divide-gray-200">
           {todos.map((todo) => (
             <div key={todo.id} className={cls(
-              "flex items-center justify-between p-4 h-14",
+              "flex items-center justify-between p-4 h-14 cursor-pointer select-none",
               todo.done ? "bg-gray-200" : ""
             )}>
               <div
