@@ -30,14 +30,14 @@ export function useTodos() {
   }
 
   const openAdd = () => {
-    setAdding(true);
+    setAdding(!isAdding);
     setEditing(false);
     setEditingTodo(null);
     focus();
   };
 
   const openEdit = (todo: Todo) => {
-    setEditing(true);
+    setEditing(!isEditing);
     setAdding(false);
     setEditingTodo(todo);
     setInputValue(todo.text);
