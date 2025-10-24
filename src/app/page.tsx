@@ -22,7 +22,7 @@ export default function Home() {
 
   const formatDate = (date?: string) => {
     if ( date ) {
-      return dateUtils.format(date, "MMM. dd, yyyy [E] - hh:mm p")
+      return dateUtils.format(date, "MMM. dd, yyyy [E] - p")
     }
   }
 
